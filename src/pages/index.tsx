@@ -6,7 +6,7 @@ import {
   ListIcon,
   ListItem,
 } from '@chakra-ui/react'
-import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
+import { ArrowForwardIcon, PlusSquareIcon, QuestionOutlineIcon} from '@chakra-ui/icons'
 
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
@@ -19,27 +19,22 @@ const Index = () => (
   <Container height="100vh">
     <Hero />
     <Main>
-      <Text>
-        Example repository of <Code>Next.js</Code> + <Code>chakra-ui</Code> +{' '}
-        <Code>TypeScript</Code>.
-      </Text>
-
-      <List spacing={3} my={0}>
+       <List spacing={3} my={0}>
         <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
+          <ListIcon as={PlusSquareIcon} color="green.600" />
           <ChakraLink
             isExternal
-            href="https://chakra-ui.com"
+            href="https://www.linkedin.com/in/kim-lyons-hernandez/"
             flexGrow={1}
             mr={2}
           >
-            Chakra UI <LinkIcon />
+            Go to your Kanban <ArrowForwardIcon />
           </ChakraLink>
         </ListItem>
         <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://nextjs.org" flexGrow={1} mr={2}>
-            Next.js <LinkIcon />
+          <ListIcon as={PlusSquareIcon} color="green.600" />
+          <ChakraLink isExternal href="https://github.com/whatkimkong" flexGrow={1} mr={2}>
+            Find out more <QuestionOutlineIcon />
           </ChakraLink>
         </ListItem>
       </List>
@@ -47,7 +42,7 @@ const Index = () => (
 
     <DarkModeSwitch />
     <Footer>
-      <Text>Next ❤️ Chakra</Text>
+      <Text>Your ❤️ KanKan</Text>
     </Footer>
     <CTA />
   </Container>
