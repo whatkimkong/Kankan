@@ -7,6 +7,7 @@ import {
   ListItem,
 } from '@chakra-ui/react'
 import { ArrowForwardIcon, PlusSquareIcon, QuestionOutlineIcon} from '@chakra-ui/icons'
+import { AiFillCrown } from 'react-icons/ai';
 
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
@@ -39,11 +40,14 @@ const Index = () => (
         </ListItem>
       </List>
     </Main>
-
     <DarkModeSwitch />
     <Footer>
-      <Text>Your ❤️ KanKan</Text>
+      <Text>
+        Built using <Code>Next.js</Code> + <Code>chakra-ui</Code> +{' '}
+          <Code>TypeScript</Code>.
+      </Text>
     </Footer>
+    
     <CTA />
   </Container>
 )
