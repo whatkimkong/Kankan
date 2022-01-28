@@ -24,6 +24,16 @@ export const CTA = () => (
     <ChakraLink
       isExternal
       href="https://github.com/whatkimkong/Kankan"
+      flexGrow={1}
+      mx={2}
+    >
+      <Button width="100%" variant="solid" colorScheme="green">
+        Sign Up
+      </Button>
+    </ChakraLink>
+    <ChakraLink
+      isExternal
+      href="https://github.com/whatkimkong/Kankan"
       flexGrow={3}
       mx={2}
     >
