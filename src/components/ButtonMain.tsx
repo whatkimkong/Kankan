@@ -1,9 +1,9 @@
 import { Box } from "@chakra-ui/react";
 
-export const ButtonMain = ({ title }: { title: any }) => (
+const ButtonMain = ({ title }: { title: string }) => (
     <Box
       as="button"
-      height="8vh"
+      height="6vw"
       width="100%"
       lineHeight="1.2"
       transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
@@ -26,10 +26,11 @@ export const ButtonMain = ({ title }: { title: any }) => (
         boxShadow: "0 5px 15px #24f7e1",
       }}
       >
-      'Login' {title}
+      {title}
     </Box>
 );
 
+export default ButtonMain; 
 
 ButtonMain.defaultProps = {
   title: "button",

@@ -1,6 +1,6 @@
 import { Link as ChakraLink, Button, Box } from "@chakra-ui/react";
 import { Container } from "./Container";
-import { ButtonMain } from "./ButtonMain";
+import ButtonMain from "./ButtonMain";
 
 
 export const CTA = () => (
@@ -21,14 +21,16 @@ export const CTA = () => (
         My LinkedIn
       </Button>
     </ChakraLink>
+
     <ChakraLink
       isExternal
       href="https://www.linkedin.com/in/kim-lyons-hernandez/"
       flexGrow={2}
       mx={2}
     >
-    <ButtonMain>Login</ButtonMain>
+    <ButtonMain title='Login'/>
     </ChakraLink>
+
     <ChakraLink
       isExternal
       href="https://github.com/whatkimkong/Kankan"
