@@ -1,6 +1,6 @@
 import { Flex, Heading } from '@chakra-ui/react'
 
-export const Hero = ({ title }: { title: string }) => (
+export const Headline = ({ title }: { title: string }) => (
   <Flex
     justifyContent="center"
     alignItems="center"
@@ -12,6 +12,6 @@ export const Hero = ({ title }: { title: string }) => (
   </Flex>
 )
 
-Hero.defaultProps = {
+Headline.defaultProps = {
   title: 'KanKan, the KanBan for Coders',
 }
