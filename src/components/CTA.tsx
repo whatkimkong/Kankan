@@ -16,7 +16,11 @@ export const CTA = () => (
         My LinkedIn
       </Button>
     </ChakraLink>
-
+    <ChakraLink isExternal href="https://www.linkedin.com/in/kim-lyons-hernandez/" flexGrow={1} mx={2}>
+      <Button width="100%" variant="outline" colorScheme="green">
+        Login
+      </Button>
+    </ChakraLink>
     <ChakraLink
       isExternal
       href="https://github.com/whatkimkong/Kankan"
