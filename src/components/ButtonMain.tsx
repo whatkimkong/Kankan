@@ -9,6 +9,7 @@ const ButtonMain = ({ title }: { title: string }) => (
       transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
       border="1px"
       px="8px"
+      mb='40px'
       borderRadius="4px"
       fontSize="3vh"
       fontWeight="semibold"
