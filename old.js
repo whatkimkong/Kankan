@@ -1,5 +1,14 @@
 
 /* OLD CODE 
+import {
+  Link as ChakraLink,
+  List,
+  ListIcon,
+  ListItem,
+} from '@chakra-ui/react'
+import { ArrowForwardIcon, PlusSquareIcon, QuestionOutlineIcon} from '@chakra-ui/icons'
+import { AiFillCrown } from 'react-icons/ai';
+import { Main } from '../components/Main'
 
 <Main>
        <List spacing={3} my={0}>
