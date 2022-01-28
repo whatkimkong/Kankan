@@ -5,6 +5,7 @@ export const Headline = ({ title }: { title: string }) => (
     justifyContent="center"
     alignItems="center"
     height="100vh"
+    mt="25vh"
     bgGradient="linear(to-l, #ccff00, #ff0000)"
     bgClip="text"
   >
