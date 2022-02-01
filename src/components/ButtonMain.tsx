@@ -30,7 +30,7 @@ const ButtonMain = ({ title }: { title: string }) => {
         transform: "scale(0.98)",
       }}
       _focus={{
-        boxShadow: "0 5px 15px #24f7e1",
+        boxShadow: `0 5px 15px ${borderColor[colorMode]}`,
       }}
       >
       {title}
