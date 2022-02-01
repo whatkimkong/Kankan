@@ -13,8 +13,7 @@ export const CTA = () => (
     py={3}
   >
     <ChakraLink
-      isExternal
-      href="https://www.linkedin.com/in/kim-lyons-hernandez/"
+      href="/projects"
       flexGrow={1}
       mx={2}
     ><ButtonMain title='Projects'/>
