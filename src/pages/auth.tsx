@@ -1,6 +1,10 @@
 import { useRouter } from 'next/router';
 import { getSession } from 'next-auth/react';
 import { useEffect, useState } from 'react';
+import { Container } from '../components/Container'
+import { Headline } from '../components/Headline'
+import { DarkModeSwitch } from '../components/DarkModeSwitch'
+import { CTA } from '../components/CTA'
 
 import AuthForm from '../components/auth/AuthForm';
 
@@ -22,7 +26,14 @@ function AuthPage() {
     return <p>Loading...</p>;
   }
 
-  return <AuthForm />;
+  return (
+    <Container height="100vh">
+        <Headline />
+        <DarkModeSwitch />
+        <AuthForm />
+        <CTA />
+    </Container>  
+  );
 }
 
 export default AuthPage;
