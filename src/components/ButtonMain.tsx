@@ -1,6 +1,12 @@
-import { Box } from "@chakra-ui/react";
+import { Box, useColorMode } from "@chakra-ui/react";
 
-const ButtonMain = ({ title }: { title: string }) => (
+
+const ButtonMain = ({ title }: { title: string }) => {
+  const { colorMode } = useColorMode()
+
+  const borderColor = { light: '#ff0000', dark: '#ccff00' }
+  const color = { light: '#ff0000', dark: '#ccff00' }
+  return ( 
     <Box
       as="button"
       height="6vh"
@@ -14,8 +20,8 @@ const ButtonMain = ({ title }: { title: string }) => (
       fontSize="3vh"
       fontWeight="semibold"
       bg="transparent"
-      borderColor="#ccff00"
-      color="#ccff00"
+      color={color[colorMode]}
+      borderColor={borderColor[colorMode]}
       _hover={{
         transform: "scale(0.93)",
         boxShadow: "0 0 1px 2px #24f7e1, 0 1px 1px #ddb48c",
@@ -29,7 +35,8 @@ const ButtonMain = ({ title }: { title: string }) => (
       >
       {title}
     </Box>
-);
+  )
+};
 
 export default ButtonMain; 
 
