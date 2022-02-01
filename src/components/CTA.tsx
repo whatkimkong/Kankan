@@ -17,9 +17,7 @@ export const CTA = () => (
       href="https://www.linkedin.com/in/kim-lyons-hernandez/"
       flexGrow={1}
       mx={2}
-    ><Button width="100%" variant="outline" colorScheme="green">
-        My LinkedIn
-      </Button>
+    ><ButtonMain title='Projects'/>
     </ChakraLink>
 
     <ChakraLink
