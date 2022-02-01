@@ -3,7 +3,7 @@ import { Box } from "@chakra-ui/react";
 const ButtonMain = ({ title }: { title: string }) => (
     <Box
       as="button"
-      height="6vw"
+      height="6vh"
       width="100%"
       lineHeight="1.2"
       transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
