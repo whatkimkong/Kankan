@@ -35,9 +35,7 @@ export const CTA = () => (
       flexGrow={1}
       mx={2}
     >
-      <Button width="100%" variant="solid" colorScheme="green">
-        Sign Up
-      </Button>
+      <ButtonMain title='Sign Up'/>
     </ChakraLink>
     <ChakraLink
       isExternal
@@ -45,9 +43,7 @@ export const CTA = () => (
       flexGrow={3}
       mx={2}
     >
-      <Button width="100%" variant="solid" colorScheme="green">
-        View This Repo
-      </Button>
+      <ButtonMain title='View Repo'/>
     </ChakraLink>
   </Container>
 );
