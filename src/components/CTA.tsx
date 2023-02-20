@@ -13,10 +13,10 @@ export const CTA = () => (
     py={3}
   >
     <ChakraLink
-      href="/projects"
+      href="/"
       flexGrow={1}
       mx={2}
-    ><ButtonMain title='Projects'/>
+    ><ButtonMain title='Home'/>
     </ChakraLink>
 
     <ChakraLink
@@ -29,8 +29,7 @@ export const CTA = () => (
     </ChakraLink>
 
     <ChakraLink
-      isExternal
-      href="https://github.com/whatkimkong/Kankan"
+      href="/underconstruction"
       flexGrow={1}
       mx={2}
     >
