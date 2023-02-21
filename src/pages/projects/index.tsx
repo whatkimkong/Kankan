@@ -8,7 +8,7 @@ import {
   import { CTA } from '../../components/CTA'
   import { Footer } from '../../components/Footer'
   
-  const Index = () => (
+  const Login = () => (
     <Container height="100vh">
       <Headline />
       <DarkModeSwitch />
@@ -18,10 +18,9 @@ import {
             <Code>TypeScript</Code>.
         </Text>
       </Footer>
-      
       <CTA />
     </Container>
   )
   
-  export default Index
+  export default Login;
   
