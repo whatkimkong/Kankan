@@ -11,6 +11,8 @@ import { Footer } from '../../components/Footer'
 const Signup = () => (
 <Container height="100vh">
     <Headline title="Sign Up" />
+    <Text><Code>Status</Code> : <Code>under construction.</Code></Text>
+    <Text>Thanks for your patience</Text>
     <DarkModeSwitch />
     <Footer>
     <Text>

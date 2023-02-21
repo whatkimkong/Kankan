@@ -11,6 +11,8 @@ import { Footer } from '../../components/Footer'
 const Login = () => (
 <Container height="100vh">
     <Headline title="Login" />
+    <Text><Code>Status</Code> : <Code>under construction.</Code></Text>
+    <Text>Thanks for your patience</Text>
     <DarkModeSwitch />
     <Footer>
     <Text>
@@ -18,7 +20,6 @@ const Login = () => (
         <Code>TypeScript</Code>.
     </Text>
     </Footer>
-    
     <CTA />
 </Container>
 )
