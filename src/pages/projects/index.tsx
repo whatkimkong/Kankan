@@ -8,7 +8,7 @@ import {
   import { CTA } from '../../components/CTA'
   import { Footer } from '../../components/Footer'
   
-  const Login = () => (
+  const Index = () => (
     <Container height="100vh">
       <Headline />
       <DarkModeSwitch />
@@ -22,5 +22,5 @@ import {
     </Container>
   )
   
-  export default Login;
+  export default Index;
   
