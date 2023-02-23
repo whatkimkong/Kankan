@@ -20,7 +20,6 @@ export const CTA = () => (
     </ChakraLink>
 
     <ChakraLink
-      isExternal
       href="/login"
       flexGrow={2}
       mx={2}
