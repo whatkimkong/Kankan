@@ -21,7 +21,7 @@ export const CTA = () => (
 
     <ChakraLink
       isExternal
-      href="https://www.linkedin.com/in/kim-lyons-hernandez/"
+      href="/login"
       flexGrow={2}
       mx={2}
     >
@@ -29,7 +29,7 @@ export const CTA = () => (
     </ChakraLink>
 
     <ChakraLink
-      href="/underconstruction"
+      href="/signup"
       flexGrow={1}
       mx={2}
     >
