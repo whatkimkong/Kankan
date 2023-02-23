@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/router';
+import { Link as ChakraLink, Button, Box, Flex } from "@chakra-ui/react";
 
 async function createUser(email, password) {
   const response = await fetch('/api/auth/signup', {
@@ -61,7 +62,14 @@ function AuthForm() {
   }
 
   return (
-    <section>
+    <Flex
+    justifyContent="center"
+    alignItems="center"
+    height="100vh"
+    mt="25vh"
+    bgGradient="linear(to-l, #ccff00, #ff0000)"
+    bgClip="text"
+  >
       <h1>{isLogin ? 'Login' : 'Sign Up'}</h1>
       <form onSubmit={submitHandler}>
         <div >
@@ -87,7 +95,7 @@ function AuthForm() {
           </button>
         </div>
       </form>
-    </section>
+    </Flex>
   );
 }
 
